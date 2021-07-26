@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.productpage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logosmall"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.SearchActivity"></activity>
+        <activity android:name=".activities.WishlistActivity" />
+        <activity android:name=".activities.cartactivity" />
+        <activity android:name=".activities.productactivity" />
+        <activity android:name=".activities.verifyotp" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.Signup" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

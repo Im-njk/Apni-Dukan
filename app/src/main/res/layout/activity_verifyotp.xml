@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activities.verifyotp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Verify Your Phone"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:layout_marginVertical="50dp"
+        android:fontFamily="@font/title"
+        />
+    <TextView
+        android:id="@+id/numbertxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Otp Sent On "
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="30dp"
+
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/otpxml"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:textCursorDrawable="@drawable/cursor"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textbox"/>
+    <Button
+        android:id="@+id/verifybtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btnbg"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="20dp"
+        android:text="Verify"/>
+</LinearLayout>

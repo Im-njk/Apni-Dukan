@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navMyOrders"
+        android:orderInCategory="100"
+        android:title="My Orders"
+        app:showAsAction="never"
+        android:icon="@drawable/navcart"/>
+    <item
+        android:id="@+id/navMywishlist"
+        android:orderInCategory="100"
+        android:title="My Wishlist"
+        app:showAsAction="never"
+        android:icon="@drawable/navwishlist"/>
+
+    <item
+        android:id="@+id/navsettings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:icon="@drawable/navsetting"/>
+
+</menu>
