@@ -1,4 +1,4 @@
-# E-shoping
+# Apni Dukan
 ![E-Shoping App](https://user-images.githubusercontent.com/73936321/165909093-7edf2ad1-b0de-40c0-9490-3479b241e7c9.png)
 
 
